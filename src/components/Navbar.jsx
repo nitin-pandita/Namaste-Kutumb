@@ -26,10 +26,10 @@ const Navbar = () => {
 
   return (
     <div className="bg-bgColor">
-      <div className="w-full h-20vh">
-        <nav className="flex justify-between items-center w-[90%] m-auto  flex-wrap">
+      <div className="w-full h-20vh ">
+        <nav className="flex justify-between items-center w-[90%] m-auto  tablet:flex-col mobile:flex-row mobile:w-[90%] tablet:mx-4 ">
           <Link to="/">
-            <div className="flex flex-col items-center justify-center">
+            <div className="flex flex-col items-center justify-center ">
               <img src={Logo} alt="logo" className="w-[60%]" />
               <h3 className="text-logoColor font-bold text-[20px] ">
                 Namaste Kutumb
@@ -37,8 +37,8 @@ const Navbar = () => {
             </div>
           </Link>
 
-          <div className="nav-links space-x-7 max-w-[100%] mobile:hidden">
-            <ul className="min-w-[100%]">
+          <div className="nav-links space-x-7 max-w-[100%] mobile:hidden ">
+            <ul className="w-full ">
               <Link
                 to="/destination"
                 className="text-lg font-semibold transition-transform duration-300 transform hover:scale-110 hover:text-red-600 hover:transform-origin-top text-black"

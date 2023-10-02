@@ -31,7 +31,10 @@ export default {
         "2xl": "1536px",
         semiHalf: { max: "825px" },
         mobileSemi: { min: "376px" },
+        tablet: { max: "803px" },
         mobile: { max: "376px" },
+        mobileSemiHalf: { max: "668px" },
+
         semiHalfContent: { max: "661px" },
       },
     },
