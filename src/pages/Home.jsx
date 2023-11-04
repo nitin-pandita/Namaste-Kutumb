@@ -2,6 +2,7 @@ import Navbar from "../components/NavBar";
 import { Link } from "react-router-dom";
 import India from "../images/India.png";
 import Search from "../components/Search";
+import About from "./About";
 
 const Home = () => {
   return (
@@ -35,8 +36,9 @@ const Home = () => {
             </div>
           </div>
         </div>
+        <Search />
       </div>
-      {/* <Search /> */}
+      <About />
     </div>
   );
 };
