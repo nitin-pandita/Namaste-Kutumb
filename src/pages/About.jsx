@@ -12,7 +12,7 @@ const About = () => {
         <h1 className="underline text-textColor text-[35px] font-bold">
           Our Top Values
         </h1>
-        <div className="flex justify-between">
+        <div className="flex justify-between overflow-x-hidden">
           <Card
             icon={<AiFillHome size={"33px"} />}
             heading={"Home Stay"}
